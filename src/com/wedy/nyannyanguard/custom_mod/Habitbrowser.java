@@ -21,5 +21,16 @@ public class Habitbrowser {
                         ad.setVisibility(View.GONE);                                        
                 }
         });
+        resparam.res.hookLayout("jp.ddo.pigsty.HabitBrowser", "layout", "activity_history_layout", new XC_LayoutInflated() {
+                
+                @Override
+                public void handleLayoutInflated(LayoutInflatedParam liparam) throws Throwable {
+  
+                        View ad = (View) liparam.view.findViewById(
+                                        liparam.res.getIdentifier("AdPanel", "id", "jp.ddo.pigsty.HabitBrowser"));
+                        
+                        ad.setVisibility(View.GONE);                                        
+                }
+        });
     }
 }
