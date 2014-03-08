@@ -1,7 +1,7 @@
 ﻿NyanNyanGuard
 ===========
-NyanNyanGuardは開発が中止されたMinMinGuardの後継版です。
-  ブロックする広告を増やすことを中心に更新していきます。
+NyanNyanGuardは開発が中止されたMinMinGuardの後継版です。  
+ブロックする広告を増やすことを中心に更新していきます。
 
 サポート
 ----------
@@ -12,20 +12,20 @@ http://androplus.kagome-kagome.com/
 ----------
 広告ネットワークのブロック
 - Admob、Nendなどの広告ネットワークのSDKの呼び出しをブロックし、広告枠を削除します。
-  
+
 アプリ内広告枠の削除
 - 広告ネットワークとURLのブロックだけでは消えない広告枠を個別に対応して削除します。
-  
+
 広告URLのブロック
-- 内蔵したブロックリストに含まれるURLをブロックします。
-  リストは
-  MinMinGuardの元々のブロックリスト
-  http://adaway.org/hosts.txt
-  http://hosts-file.net/ad_servers.asp
-  http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
-  http://winhelp2002.mvps.org/hosts.txt
-  https://www.cubby.com/pl/hosts_Ultimate.txt/_15815deb4359441cbc9ce6b7a52c8eb0
-  https://www.cubby.com/pl/hosts_for_Adaway.txt/_680e34d41b734958907ebef4380805f4
+- 内蔵したブロックリストに含まれるURLをブロックします。  
+  リストは  
+  MinMinGuardの元々のブロックリスト  
+  http://adaway.org/hosts.txt  
+  http://hosts-file.net/ad_servers.asp  
+  http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext  
+  http://winhelp2002.mvps.org/hosts.txt  
+  https://www.cubby.com/pl/hosts_Ultimate.txt/_15815deb4359441cbc9ce6b7a52c8eb0  
+  https://www.cubby.com/pl/hosts_for_Adaway.txt/_680e34d41b734958907ebef4380805f4  
   をAdAwayで統合しています。
 
 
