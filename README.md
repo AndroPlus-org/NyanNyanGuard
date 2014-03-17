@@ -5,7 +5,7 @@ NyanNyanGuardは開発が中止されたMinMinGuardの後継版です。
 
 サポート
 ----------
-AndroPlus Blog
+AndroPlus Blog  
 http://androplus.kagome-kagome.com/
   
 機能
