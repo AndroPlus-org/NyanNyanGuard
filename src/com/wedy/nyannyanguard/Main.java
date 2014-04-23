@@ -8,9 +8,11 @@ import java.util.Set;
 import com.wedy.nyannyanguard.adnetwork.AdMarvel;
 import com.wedy.nyannyanguard.adnetwork.Adfurikun;
 import com.wedy.nyannyanguard.adnetwork.Admob;
+import com.wedy.nyannyanguard.adnetwork.AdmobGms;
 import com.wedy.nyannyanguard.adnetwork.Amazon;
 import com.wedy.nyannyanguard.adnetwork.Amobee;
 import com.wedy.nyannyanguard.adnetwork.Bonzai;
+import com.wedy.nyannyanguard.adnetwork.Chartboost;
 import com.wedy.nyannyanguard.adnetwork.Flurry;
 import com.wedy.nyannyanguard.adnetwork.Inmobi;
 import com.wedy.nyannyanguard.adnetwork.KuAd;
@@ -127,6 +129,9 @@ public class Main implements IXposedHookZygoteInit,
         if(Admob.handleLoadPackage(packageName, lpparam, test)) {
             networks.add("AdMob");
         }
+        if(AdmobGms.handleLoadPackage(packageName, lpparam, test)) {
+            networks.add("AdMobGms");
+        }
         if(Amazon.handleLoadPackage(packageName, lpparam, test)) {
             networks.add("Amazon");
         }
@@ -135,6 +140,9 @@ public class Main implements IXposedHookZygoteInit,
         }
         if(Bonzai.handleLoadPackage(packageName, lpparam, test)) {
             networks.add("Bonzai");
+        }
+        if(Chartboost.handleLoadPackage(packageName, lpparam, test)) {
+            networks.add("Chartboost");
         }
         if(MasAd.handleLoadPackage(packageName, lpparam, test)) {
             networks.add("MasAd");
